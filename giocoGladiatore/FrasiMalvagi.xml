@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<row>
+		<phrase>Sono il malvagio</phrase>
+		<IsEvil>true</IsEvil>
+	</row>
+	<row>
+		<phrase>Conquistero il mondo</phrase>
+		<IsEvil>true</IsEvil>
+	</row>
+	<row>
+		<phrase>mi piace il mac</phrase>
+		<IsEvil>true</IsEvil>
+	</row>
+	<row>
+		<phrase>Sono il buono</phrase>
+		<IsEvil>false</IsEvil>
+	</row>
+	<row>
+		<phrase>AAAAAAAAAAbuono</phrase>
+		<IsEvil>false</IsEvil>
+	</row>
+	<row>
+		<phrase>Ho salvato il mondo</phrase>
+		<IsEvil>false</IsEvil>
+	</row>
+</root>

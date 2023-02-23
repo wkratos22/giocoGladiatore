@@ -1,0 +1,266 @@
+﻿
+23/02/2023 16:21:37
+gianni HP iniziale: 100  hp dopo attacco: 80
+gianni HP iniziale: 80  hp dopo attacco: 45
+gianni HP iniziale: 45  hp dopo attacco: 33
+pippo HP iniziale: 100  hp dopo attacco: 79
+gianni HP iniziale: 33  hp dopo attacco: 18
+pippo HP iniziale: 79  hp dopo attacco: 42
+pippo HP iniziale: 42  hp dopo attacco: 27
+gianni HP iniziale: 18  hp dopo attacco: 1
+pippo HP iniziale: 27  hp dopo attacco: -13
+pippo HP iniziale: -13  hp dopo attacco: -23
+23/02/2023 16:44:11
+gianni HP iniziale: 100  hp dopo attacco: 92
+pippo HP iniziale: 100  hp dopo attacco: 81
+pippo HP iniziale: 81  hp dopo attacco: 60
+gianni HP iniziale: 92  hp dopo attacco: 79
+pippo HP iniziale: 60  hp dopo attacco: 36
+23/02/2023 16:44:32
+asd HP iniziale: 100  hp dopo attacco: 83
+asd HP iniziale: 100  hp dopo attacco: 94
+asd HP iniziale: 83  hp dopo attacco: 55
+asd HP iniziale: 55  hp dopo attacco: 42
+asd HP iniziale: 94  hp dopo attacco: 70
+asd HP iniziale: 42  hp dopo attacco: 33
+asd HP iniziale: 70  hp dopo attacco: 59
+asd HP iniziale: 33  hp dopo attacco: 21
+asd HP iniziale: 59  hp dopo attacco: 41
+23/02/2023 16:46:25
+asd HP iniziale: 100  hp dopo attacco: 82
+asd HP iniziale: 100  hp dopo attacco: 93
+asd HP iniziale: 82  hp dopo attacco: 65
+asd HP iniziale: 93  hp dopo attacco: 75
+asd HP iniziale: 65  hp dopo attacco: 47
+23/02/2023 16:47:30
+gianni HP iniziale: 100  hp dopo attacco: 89
+pippo HP iniziale: 100  hp dopo attacco: 86
+gianni HP iniziale: 89  hp dopo attacco: 70
+pippo HP iniziale: 86  hp dopo attacco: 76
+gianni HP iniziale: 70  hp dopo attacco: 54
+pippo HP iniziale: 76  hp dopo attacco: 61
+gianni HP iniziale: 54  hp dopo attacco: 24
+gianni HP iniziale: 24  hp dopo attacco: 7
+pippo HP iniziale: 61  hp dopo attacco: 47
+gianni HP iniziale: 7  hp dopo attacco: -13
+23/02/2023 16:50:52
+gianni HP iniziale: 100  hp dopo attacco: 94
+23/02/2023 16:51:29
+asd HP iniziale: 100  hp dopo attacco: 81
+asd HP iniziale: 100  hp dopo attacco: 79
+asd HP iniziale: 79  hp dopo attacco: 61
+asd HP iniziale: 81  hp dopo attacco: 51
+asd HP iniziale: 51  hp dopo attacco: 35
+asd HP iniziale: 61  hp dopo attacco: 50
+asd HP iniziale: 50  hp dopo attacco: 27
+asd HP iniziale: 35  hp dopo attacco: 5
+asd HP iniziale: 5  hp dopo attacco: -16
+23/02/2023 16:51:51
+23/02/2023 16:55:43
+gh HP iniziale: 100  hp dopo attacco: 60
+gh HP iniziale: 60  hp dopo attacco: 40
+asd HP iniziale: 100  hp dopo attacco: 77
+asd HP iniziale: 77  hp dopo attacco: 66
+asd HP iniziale: 66  hp dopo attacco: 47
+gh HP iniziale: 40  hp dopo attacco: 10
+gh HP iniziale: 10  hp dopo attacco: -13
+23/02/2023 16:59:50
+asd HP iniziale: 100  hp dopo attacco: 93
+asd HP iniziale: 100  hp dopo attacco: 82
+asd HP iniziale: 82  hp dopo attacco: 70
+asd HP iniziale: 70  hp dopo attacco: 56
+asd HP iniziale: 93  hp dopo attacco: 76
+asd HP iniziale: 56  hp dopo attacco: 50
+asd HP iniziale: 50  hp dopo attacco: 42
+asd HP iniziale: 76  hp dopo attacco: 67
+asd HP iniziale: 42  hp dopo attacco: 21
+asd HP iniziale: 21  hp dopo attacco: 2
+asd HP iniziale: 67  hp dopo attacco: 59
+asd HP iniziale: 2  hp dopo attacco: -22
+asd HP iniziale: -22  hp dopo attacco: -30
+23/02/2023 17:02:02
+asd HP iniziale: 100  hp dopo attacco: 89
+asd HP iniziale: 100  hp dopo attacco: 87
+asd HP iniziale: 87  hp dopo attacco: 75
+asd HP iniziale: 89  hp dopo attacco: 46
+asd HP iniziale: 46  hp dopo attacco: 29
+asd HP iniziale: 75  hp dopo attacco: 56
+asd HP iniziale: 56  hp dopo attacco: 39
+asd HP iniziale: 29  hp dopo attacco: -14
+asd HP iniziale: -14  hp dopo attacco: -20
+23/02/2023 17:04:00
+asd HP iniziale: 100  hp dopo attacco: 94
+asd HP iniziale: 100  hp dopo attacco: 87
+asd HP iniziale: 87  hp dopo attacco: 77
+asd HP iniziale: 94  hp dopo attacco: 58
+asd HP iniziale: 58  hp dopo attacco: 34
+asd HP iniziale: 77  hp dopo attacco: 61
+asd HP iniziale: 61  hp dopo attacco: 54
+asd HP iniziale: 34  hp dopo attacco: 17
+asd HP iniziale: 54  hp dopo attacco: 48
+asd HP iniziale: 48  hp dopo attacco: 36
+asd HP iniziale: 17  hp dopo attacco: -3
+23/02/2023 17:04:28
+asd HP iniziale: 100  hp dopo attacco: 84
+asd HP iniziale: 100  hp dopo attacco: 94
+asd HP iniziale: 94  hp dopo attacco: 75
+asd HP iniziale: 84  hp dopo attacco: 43
+asd HP iniziale: 43  hp dopo attacco: 37
+asd HP iniziale: 75  hp dopo attacco: 51
+asd HP iniziale: 51  hp dopo attacco: 37
+asd HP iniziale: 37  hp dopo attacco: 21
+asd HP iniziale: 37  hp dopo attacco: 26
+asd HP iniziale: 21  hp dopo attacco: -3
+asd HP iniziale: -3  hp dopo attacco: -19
+23/02/2023 17:05:03
+fdfo HP iniziale: 100  hp dopo attacco: 77
+asd HP iniziale: 100  hp dopo attacco: 74
+asd HP iniziale: 74  hp dopo attacco: 53
+fdfo HP iniziale: 77  hp dopo attacco: 68
+fdfo HP iniziale: 68  hp dopo attacco: 56
+asd HP iniziale: 53  hp dopo attacco: 38
+fdfo HP iniziale: 56  hp dopo attacco: 39
+fdfo HP iniziale: 39  hp dopo attacco: 27
+fdfo HP iniziale: 27  hp dopo attacco: 9
+fdfo HP iniziale: 9  hp dopo attacco: -11
+23/02/2023 17:07:07
+dfgo HP iniziale: 100  hp dopo attacco: 93
+asd HP iniziale: 100  hp dopo attacco: 91
+asd HP iniziale: 91  hp dopo attacco: 75
+dfgo HP iniziale: 93  hp dopo attacco: 63
+dfgo HP iniziale: 63  hp dopo attacco: 57
+asd HP iniziale: 75  hp dopo attacco: 69
+dfgo HP iniziale: 57  hp dopo attacco: 24
+dfgo HP iniziale: 24  hp dopo attacco: 9
+asd HP iniziale: 69  hp dopo attacco: 60
+asd HP iniziale: 60  hp dopo attacco: 47
+asd HP iniziale: 47  hp dopo attacco: 37
+dfgo HP iniziale: 9  hp dopo attacco: -25
+dfgo HP iniziale: -25  hp dopo attacco: -38
+23/02/2023 17:08:21
+asd HP iniziale: 100  hp dopo attacco: 92
+asfd HP iniziale: 100  hp dopo attacco: 80
+asd HP iniziale: 92  hp dopo attacco: 80
+asd HP iniziale: 80  hp dopo attacco: 64
+asfd HP iniziale: 80  hp dopo attacco: 65
+asfd HP iniziale: 65  hp dopo attacco: 45
+asd HP iniziale: 64  hp dopo attacco: 45
+asfd HP iniziale: 45  hp dopo attacco: 26
+asfd HP iniziale: 26  hp dopo attacco: 6
+asd HP iniziale: 45  hp dopo attacco: 35
+asfd HP iniziale: 6  hp dopo attacco: -14
+asfd HP iniziale: -14  hp dopo attacco: -25
+23/02/2023 17:09:05
+as HP iniziale: 100  hp dopo attacco: 88
+sdfg HP iniziale: 100  hp dopo attacco: 92
+as HP iniziale: 88  hp dopo attacco: 75
+sdfg HP iniziale: 92  hp dopo attacco: 69
+sdfg HP iniziale: 69  hp dopo attacco: 50
+sdfg HP iniziale: 50  hp dopo attacco: 39
+as HP iniziale: 75  hp dopo attacco: 54
+sdfg HP iniziale: 39  hp dopo attacco: 19
+sdfg HP iniziale: 19  hp dopo attacco: 0
+23/02/2023 17:09:46
+asd HP iniziale: 100  hp dopo attacco: 90
+asd HP iniziale: 100  hp dopo attacco: 89
+asd HP iniziale: 90  hp dopo attacco: 67
+asd HP iniziale: 67  hp dopo attacco: 52
+asd HP iniziale: 89  hp dopo attacco: 74
+asd HP iniziale: 52  hp dopo attacco: 28
+asd HP iniziale: 74  hp dopo attacco: 52
+asd HP iniziale: 52  hp dopo attacco: 41
+asd HP iniziale: 41  hp dopo attacco: 23
+asd HP iniziale: 23  hp dopo attacco: -1
+23/02/2023 17:10:15
+fgds HP iniziale: 100  hp dopo attacco: 91
+asd HP iniziale: 100  hp dopo attacco: 59
+asd HP iniziale: 59  hp dopo attacco: 49
+fgds HP iniziale: 91  hp dopo attacco: 84
+fgds HP iniziale: 84  hp dopo attacco: 66
+asd HP iniziale: 49  hp dopo attacco: 32
+fgds HP iniziale: 66  hp dopo attacco: 53
+fgds HP iniziale: 53  hp dopo attacco: 38
+asd HP iniziale: 32  hp dopo attacco: 15
+fgds HP iniziale: 38  hp dopo attacco: 19
+fgds HP iniziale: 19  hp dopo attacco: -5
+23/02/2023 17:10:41
+asdg HP iniziale: 100  hp dopo attacco: 82
+sdg HP iniziale: 100  hp dopo attacco: 86
+sdg HP iniziale: 86  hp dopo attacco: 79
+sdg HP iniziale: 79  hp dopo attacco: 62
+asdg HP iniziale: 82  hp dopo attacco: 70
+asdg HP iniziale: 70  hp dopo attacco: 29
+asdg HP iniziale: 29  hp dopo attacco: 15
+sdg HP iniziale: 62  hp dopo attacco: 48
+asdg HP iniziale: 15  hp dopo attacco: -4
+23/02/2023 17:18:53
+nasd HP iniziale: 100  hp dopo attacco: 79
+dfsd HP iniziale: 100  hp dopo attacco: 76
+nasd HP iniziale: 79  hp dopo attacco: 66
+dfsd HP iniziale: 76  hp dopo attacco: 42
+dfsd HP iniziale: 42  hp dopo attacco: 35
+nasd HP iniziale: 66  hp dopo attacco: 42
+dfsd HP iniziale: 35  hp dopo attacco: 3
+dfsd HP iniziale: 3  hp dopo attacco: -4
+23/02/2023 17:19:31
+asf HP iniziale: 100  hp dopo attacco: 91
+asfd HP iniziale: 100  hp dopo attacco: 81
+asfd HP iniziale: 81  hp dopo attacco: 72
+asfd HP iniziale: 72  hp dopo attacco: 54
+asf HP iniziale: 91  hp dopo attacco: 72
+asfd HP iniziale: 54  hp dopo attacco: 46
+asf HP iniziale: 72  hp dopo attacco: 59
+asfd HP iniziale: 46  hp dopo attacco: 30
+asfd HP iniziale: 30  hp dopo attacco: 20
+asf HP iniziale: 59  hp dopo attacco: 39
+asfd HP iniziale: 20  hp dopo attacco: 14
+asfd HP iniziale: 14  hp dopo attacco: 8
+asfd HP iniziale: 8  hp dopo attacco: -14
+23/02/2023 17:20:41
+asf HP iniziale: 100  hp dopo attacco: 88
+dfg HP iniziale: 100  hp dopo attacco: 87
+asf HP iniziale: 88  hp dopo attacco: 77
+asf HP iniziale: 77  hp dopo attacco: 70
+dfg HP iniziale: 87  hp dopo attacco: 63
+asf HP iniziale: 70  hp dopo attacco: 62
+asf HP iniziale: 62  hp dopo attacco: 43
+dfg HP iniziale: 63  hp dopo attacco: 31
+dfg HP iniziale: 31  hp dopo attacco: 16
+asf HP iniziale: 43  hp dopo attacco: 36
+asf HP iniziale: 36  hp dopo attacco: 19
+dfg HP iniziale: 16  hp dopo attacco: -4
+23/02/2023 17:26:20
+afg HP iniziale: 100  hp dopo attacco: 88
+asd HP iniziale: 100  hp dopo attacco: 84
+asd HP iniziale: 84  hp dopo attacco: 78
+afg HP iniziale: 88  hp dopo attacco: 62
+afg HP iniziale: 62  hp dopo attacco: 55
+asd HP iniziale: 78  hp dopo attacco: 54
+asd HP iniziale: 54  hp dopo attacco: 47
+afg HP iniziale: 55  hp dopo attacco: 38
+asd HP iniziale: 47  hp dopo attacco: 37
+asd HP iniziale: 37  hp dopo attacco: 13
+asd HP iniziale: 13  hp dopo attacco: -6
+asd HP iniziale: -6  hp dopo attacco: -20
+23/02/2023 17:28:14
+asfg HP iniziale: 100  hp dopo attacco: 88
+asf HP iniziale: 100  hp dopo attacco: 78
+asf HP iniziale: 78  hp dopo attacco: 68
+asfg HP iniziale: 88  hp dopo attacco: 64
+asfg HP iniziale: 64  hp dopo attacco: 42
+asf HP iniziale: 68  hp dopo attacco: 46
+asfg HP iniziale: 42  hp dopo attacco: 28
+asf HP iniziale: 46  hp dopo attacco: 35
+asf HP iniziale: 35  hp dopo attacco: 14
+asfg HP iniziale: 28  hp dopo attacco: 20
+asf HP iniziale: 14  hp dopo attacco: -2
+asf HP iniziale: -2  hp dopo attacco: -8
+23/02/2023 17:32:07
+asff HP iniziale: 100  hp dopo attacco: 67
+asff HP iniziale: 67  hp dopo attacco: 54
+sdgs HP iniziale: 100  hp dopo attacco: 86
+sdgs HP iniziale: 86  hp dopo attacco: 73
+asff HP iniziale: 54  hp dopo attacco: 13
+asff HP iniziale: 13  hp dopo attacco: 1
+sdgs HP iniziale: 73  hp dopo attacco: 53
+asff HP iniziale: 1  hp dopo attacco: -20
