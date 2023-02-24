@@ -10,7 +10,7 @@ namespace giocoGladiatore
     {
 
 
-        public GuerrieroPersiano(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio) : base(Nome, Hp, ValoreDiAttacco, ValoreDiDifesa, Malvagio)
+        public GuerrieroPersiano(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio, int mana, int manaRegen, int manaCost) : base(Nome, Hp, ValoreDiAttacco, ValoreDiDifesa, Malvagio, mana, manaRegen, manaCost )
         {
 
         }
@@ -27,9 +27,12 @@ namespace giocoGladiatore
 
         public double attaccoSpeciale(int risDado, double enemyDmg)
         {
+            /*
             play = new System.Media.SoundPlayer("C:\\Users\\39351\\source\\repos\\giocoGladiatore\\giocoGladiatore\\NewFolder1\\AAAAAAAAAAAAAA.wav");
             play.Play();
+            */
             return risDado+enemyDmg;
+            
         }
 
         public override double attaccoRicevuto(double attacco)
@@ -57,16 +60,16 @@ namespace giocoGladiatore
         }
 
 
-        public override void chooseAttack(string choice, player gladiatoreAvversario)
+        public override int chooseAttack(string choice, player gladiatoreAvversario)
         {
             switch (choice)
             {
 
                 case "1":
-
+                    
                     play = new System.Media.SoundPlayer("C:\\Users\\39351\\source\\repos\\giocoGladiatore\\giocoGladiatore\\NewFolder1\\mixkit-sword-blade-attack.wav");
                     play.Play();
-
+                    
                     Console.WriteLine(this.Nome + " attacca " + gladiatoreAvversario.Nome + " con: Attacco normale");
 
                     double HpPrima = gladiatoreAvversario.Hp;
@@ -106,17 +109,17 @@ namespace giocoGladiatore
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine(gladiatoreAvversario.Nome + " Ha schivato l'attacco.");
                         Console.ResetColor();
+                        
                         play = new System.Media.SoundPlayer("C:\\Users\\39351\\source\\repos\\giocoGladiatore\\giocoGladiatore\\NewFolder1\\mixkit-air-in-a-hit.wav");
                         play.Play();
+                        
                     }
                     else
                     {
-                        gladiatoreAvversario.attaccoRicevuto(ris);
-
 
                         double HpPrima2 = gladiatoreAvversario.Hp;
 
-                        double danno2 = gladiatoreAvversario.attaccoRicevuto(this.attaccoBase(lancioDado()));
+                        double danno2 = gladiatoreAvversario.attaccoRicevuto(ris);
                         if (danno2 < 0) danno2 = 0;
                         Console.Write("HP iniziale: ");
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -143,6 +146,7 @@ namespace giocoGladiatore
                     Console.WriteLine("Input non valido");
                     break;
             }
+            return 0;
         }
 
         

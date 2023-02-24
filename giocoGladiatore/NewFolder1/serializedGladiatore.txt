@@ -1,0 +1,1 @@
+{"ValoreDiAttacco":20,"Hp":100,"ValoreDiDifesa":15,"mana":20,"manaRegen":5,"manaCost":15}

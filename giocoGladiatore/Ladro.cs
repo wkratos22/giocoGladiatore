@@ -8,7 +8,7 @@ namespace giocoGladiatore
 {
     internal class Ladro : player
     {
-        public Ladro(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio) : base(Nome, Hp, ValoreDiAttacco, ValoreDiDifesa, Malvagio)
+        public Ladro(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio, int mana, int manaRegen, int manaCost) : base(Nome, Hp, ValoreDiAttacco, ValoreDiDifesa, Malvagio, mana, manaRegen, manaCost)
         {
 
         }
@@ -18,14 +18,10 @@ namespace giocoGladiatore
 
         }
 
+
         public override double attaccoSpeciale(int risDado)
         {
-            throw new NotImplementedException();
-        }
-
-        public double attaccoSpeciale(int risDado, double enemyDmg)
-        {
-            return risDado + enemyDmg;
+            return risDado;
         }
 
         public override double attaccoRicevuto(double attacco)
@@ -35,6 +31,7 @@ namespace giocoGladiatore
 
             if (numeroGenerato < 33)
             {
+                
                 play = new System.Media.SoundPlayer("C:\\Users\\39351\\source\\repos\\giocoGladiatore\\giocoGladiatore\\NewFolder1\\mixkit-air-in-a-hit.wav");
                 play.Play();
                 return -2;
@@ -62,8 +59,11 @@ namespace giocoGladiatore
         }
 
 
-        public override void chooseAttack(string choice, player gladiatoreAvversario)
+        public override int chooseAttack(string choice, player gladiatoreAvversario)
         {
+            bool validChoice = true;
+
+
             switch (choice)
             {
 
@@ -95,51 +95,61 @@ namespace giocoGladiatore
 
                 case "2":
 
-                    Console.WriteLine(this.Nome + " pugnala " + gladiatoreAvversario.Nome);
-
-                    Console.Write(this.Nome);
-
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write(" pugnala ");
-                    Console.ResetColor();
-
-                    Console.Write(gladiatoreAvversario.Nome + "\n");
-
-                    int ris = (int)this.attaccoSpeciale(lancioDado(), gladiatoreAvversario.ValoreDiAttacco);
-                    if (ris == -2)
+                    if (this.mana >= this.manaCost)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(gladiatoreAvversario.Nome + " Ha schivato l'attacco.");
+                        Console.Write(this.Nome);
+
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write(" pugnala ");
                         Console.ResetColor();
-                        
+
+                        Console.Write(gladiatoreAvversario.Nome + "\n");
+
+
+                        int ris = (int)this.attaccoSpeciale(lancioDado());
+                        this.mana -= this.manaCost;
+                        Console.WriteLine(this.mana);
+
+                        if (ris == -2)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(gladiatoreAvversario.Nome + " Ha schivato l'attacco.");
+                            Console.ResetColor();
+
+                            player = new System.Media.SoundPlayer("C:\\Users\\39351\\source\\repos\\giocoGladiatore\\giocoGladiatore\\NewFolder1\\mixkit-air-in-a-hit.wav");
+                            player.Play();
+                        }
+                        else
+                        {
+
+                            double HpPrima2 = gladiatoreAvversario.Hp;
+
+                            double danno2 = gladiatoreAvversario.attaccoRicevuto(ris);
+                            if (danno2 < 0) danno2 = 0;
+                            Console.Write("HP iniziale: ");
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write(HpPrima2);
+                            Console.ResetColor();
+                            Console.Write(" hp dopo attacco: ");
+                            Console.ForegroundColor = ConsoleColor.DarkYellow;
+                            Console.Write((gladiatoreAvversario.Hp));
+                            Console.ResetColor();
+                            Console.Write(" Danno: ");
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write(danno2);
+                            Console.ResetColor();
+
+
+                        }
+                        break;
                     }
                     else
                     {
-                        gladiatoreAvversario.attaccoRicevuto(ris);
-
-
-                        double HpPrima2 = gladiatoreAvversario.Hp;
-
-                        double danno2 = gladiatoreAvversario.attaccoRicevuto(this.attaccoBase(lancioDado()));
-                        if (danno2 < 0) danno2 = 0;
-                        Console.Write("HP iniziale: ");
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.Write(HpPrima2);
-                        Console.ResetColor();
-                        Console.Write(" hp dopo attacco: ");
-                        Console.ForegroundColor = ConsoleColor.DarkYellow;
-                        Console.Write((gladiatoreAvversario.Hp));
-                        Console.ResetColor();
-                        Console.Write(" Danno: ");
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(danno2);
-                        Console.ResetColor();
-
-
+                        return -1;
+                        break;
                     }
 
 
-                    break;
                 case "q":
                     Console.WriteLine("Exiting");
                     break;
@@ -147,8 +157,8 @@ namespace giocoGladiatore
                     Console.WriteLine("Input non valido");
                     break;
             }
+            return 0;
+
         }
-
-
     }
 }

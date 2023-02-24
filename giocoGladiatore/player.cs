@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace giocoGladiatore
 {
@@ -14,14 +16,23 @@ namespace giocoGladiatore
         public double ValoreDiDifesa { get; set; }
         public bool Malvagio { get; set; }
         public System.Media.SoundPlayer play;
+        public int mana { get; set; }
+        public int manaRegen { get; set; }
+        public int manaCost { get; set; }
+        public int manaIni;
 
-        public player(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio)
+        [JsonConstructor]
+        public player(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio, int mana, int manaRegen, int manaCost)
         {
             this.Nome = Nome;
             this.Hp = Hp;
             this.ValoreDiAttacco = ValoreDiAttacco;
             this.ValoreDiDifesa = ValoreDiDifesa;
             this.Malvagio = Malvagio;
+            this.mana = mana;
+            this.manaRegen=manaRegen;
+            this.manaCost=manaCost;
+            this.manaIni = this.mana;
         }
         public player()
         {
@@ -30,6 +41,10 @@ namespace giocoGladiatore
             this.ValoreDiAttacco = 0;
             this.ValoreDiDifesa = 0;
             this.Malvagio = true;
+            this.mana = 20;
+            this.manaRegen = 5;
+            this.manaCost = manaCost;
+            this.manaIni = this.mana;
 
         }
 
@@ -57,7 +72,7 @@ namespace giocoGladiatore
 
 
 
-        public abstract void chooseAttack(string choice, player gladiatoreAvversario);
+        public abstract int chooseAttack(string choice, player gladiatoreAvversario);
 
 
 
@@ -81,7 +96,7 @@ namespace giocoGladiatore
 
         override public string ToString()
         {
-            return "\n E' il turno di: " + this.Nome + "\n HP: " + this.Hp + "\n Attacco: " + this.ValoreDiAttacco + "\n Difesa: " + this.ValoreDiDifesa + "\n Malvagio: " + this.Malvagio;
+            return "\n E' il turno di: " + this.Nome + "\n HP: " + this.Hp + "\n Attacco: " + this.ValoreDiAttacco + "\n Difesa: " + this.ValoreDiDifesa + "\n Malvagio: " + this.Malvagio + "\n Mana Totale: " + this.mana + "\n Rigenerazione mana per round: " + this.manaRegen;
         }
 
 

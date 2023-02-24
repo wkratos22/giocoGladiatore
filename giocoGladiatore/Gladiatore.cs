@@ -12,7 +12,7 @@ namespace giocoGladiatore
     {
 
 
-        public Gladiatore(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio) : base(Nome, Hp, ValoreDiAttacco,  ValoreDiDifesa, Malvagio)
+        public Gladiatore(string Nome, double Hp, double ValoreDiAttacco, double ValoreDiDifesa, bool Malvagio, int mana, int manaRegen, int manaCost) : base(Nome, Hp, ValoreDiAttacco,  ValoreDiDifesa, Malvagio, mana, manaRegen, manaCost)
         {
 
         }
@@ -68,7 +68,7 @@ namespace giocoGladiatore
             return ris;
         }
 
-        public override void chooseAttack(string choice, player gladiatoreAvversario)
+        public override int chooseAttack(string choice, player gladiatoreAvversario)
         {
             switch (choice)
             {
@@ -103,6 +103,7 @@ namespace giocoGladiatore
                     Console.WriteLine(this.Nome + " attacca " + gladiatoreAvversario.Nome + " con: Attacco Speciale");
 
                     int ris = (int)this.attaccoSpeciale(lancioDado());
+
                     if (ris == -2)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -114,12 +115,10 @@ namespace giocoGladiatore
                     }
                     else
                     {
-                        gladiatoreAvversario.attaccoRicevuto(ris);
-
 
                         double HpPrima2 = gladiatoreAvversario.Hp;
 
-                        double danno2 = gladiatoreAvversario.attaccoRicevuto(this.attaccoBase(lancioDado()));
+                        double danno2 = gladiatoreAvversario.attaccoRicevuto(ris);
                         if (danno2 < 0) danno2 = 0;
                         Console.Write("HP iniziale: ");
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -136,9 +135,8 @@ namespace giocoGladiatore
 
 
                     }
-
-
                     break;
+
                 case "q":
                     Console.WriteLine("Exiting");
                     break;
@@ -146,6 +144,7 @@ namespace giocoGladiatore
                     Console.WriteLine("Input non valido");
                     break;
             }
+            return 0;
         }
     }
 
